@@ -21,6 +21,11 @@ class macTests: XCTestCase {
 
     func testMetalDevice() throws {
         print("Metal device is ",String(describing: MTLCreateSystemDefaultDevice()))
+        let devices = MTLCopyAllDevicesWithObserver { (_, _) in
+            //
+        }
+        print("all devices",devices.devices)
+        MTLRemoveDeviceObserver(devices.observer)
     }
 
     func testPerformanceExample() throws {
