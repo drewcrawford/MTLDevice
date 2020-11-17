@@ -23,7 +23,7 @@ jobs:
     - name: Test
       run: |
        ls /Applications
-       sudo xcode-select -s /Applications/Xcode_12.2_beta.app
+       sudo xcode-select -s /Applications/Xcode_12.2.app
        
        xcodebuild test -scheme mac
        xcodebuild test -scheme ios -destination "platform=iOS Simulator,name=iPhone 11" 
