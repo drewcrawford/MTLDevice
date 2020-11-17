@@ -22,6 +22,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Test
       run: |
+       ls /Applications
        sudo xcode-select -s /Applications/Xcode_12.2_beta.app
        
        xcodebuild test -scheme mac
