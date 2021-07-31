@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A2614AF252EE347003749E7 /* mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2614AF252EE347003749E7 /* MTLDeviceTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTLDeviceTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2614B2252EE347003749E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A2614B4252EE347003749E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A2614B6252EE349003749E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 		3A2614B0252EE347003749E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A2614AF252EE347003749E7 /* mac.app */,
+				3A2614AF252EE347003749E7 /* MTLDeviceTestApp.app */,
 				3A2614C1252EE349003749E7 /* macTests.xctest */,
 				3A2614E5252EE38C003749E7 /* ios.app */,
 				3A2614FA252EE38E003749E7 /* iosTests.xctest */,
@@ -188,9 +188,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A2614AE252EE347003749E7 /* mac */ = {
+		3A2614AE252EE347003749E7 /* MTLDeviceTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A2614D3252EE349003749E7 /* Build configuration list for PBXNativeTarget "mac" */;
+			buildConfigurationList = 3A2614D3252EE349003749E7 /* Build configuration list for PBXNativeTarget "MTLDeviceTestApp" */;
 			buildPhases = (
 				3A2614AB252EE347003749E7 /* Sources */,
 				3A2614AC252EE347003749E7 /* Frameworks */,
@@ -200,9 +200,9 @@
 			);
 			dependencies = (
 			);
-			name = mac;
+			name = MTLDeviceTestApp;
 			productName = mac;
-			productReference = 3A2614AF252EE347003749E7 /* mac.app */;
+			productReference = 3A2614AF252EE347003749E7 /* MTLDeviceTestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3A2614C0252EE349003749E7 /* macTests */ = {
@@ -296,7 +296,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A2614AE252EE347003749E7 /* mac */,
+				3A2614AE252EE347003749E7 /* MTLDeviceTestApp */,
 				3A2614C0252EE349003749E7 /* macTests */,
 				3A2614E4252EE38C003749E7 /* ios */,
 				3A2614F9252EE38E003749E7 /* iosTests */,
@@ -381,7 +381,7 @@
 /* Begin PBXTargetDependency section */
 		3A2614C3252EE349003749E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A2614AE252EE347003749E7 /* mac */;
+			target = 3A2614AE252EE347003749E7 /* MTLDeviceTestApp */;
 			targetProxy = 3A2614C2252EE349003749E7 /* PBXContainerItemProxy */;
 		};
 		3A2614FC252EE38E003749E7 /* PBXTargetDependency */ = {
@@ -472,7 +472,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P5GM95Q9VV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -499,7 +499,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dca.mac;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dca.mtldevice-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -549,7 +549,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P5GM95Q9VV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -569,7 +569,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dca.mac;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dca.mtldevice-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1023,7 +1023,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A2614D3252EE349003749E7 /* Build configuration list for PBXNativeTarget "mac" */ = {
+		3A2614D3252EE349003749E7 /* Build configuration list for PBXNativeTarget "MTLDeviceTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A2614D4252EE349003749E7 /* Debug */,
