@@ -7,7 +7,7 @@
 
 import XCTest
 import Metal
-@testable import mac
+@testable import MTLDeviceTestApp
 
 class macTests: XCTestCase {
 
