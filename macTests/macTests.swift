@@ -20,13 +20,13 @@ class macTests: XCTestCase {
     }
 
     func testMetalDevice() throws {
-        print("Metal device is ",String(describing: MTLCreateSystemDefaultDevice()))
         let devices = MTLCopyAllDevicesWithObserver { (_, _) in
             //
         }
         print("all devices",devices.devices)
         MTLRemoveDeviceObserver(devices.observer)
-        XCTFail() //I guess xcode cloud doesn't print anything unless we fail?
+        record(.init(type: .assertionFailure, compactDescription: String(describing: devices)))
+        
     }
 
     func testPerformanceExample() throws {
