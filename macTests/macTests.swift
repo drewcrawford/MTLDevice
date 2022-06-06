@@ -26,6 +26,7 @@ class macTests: XCTestCase {
         }
         print("all devices",devices.devices)
         MTLRemoveDeviceObserver(devices.observer)
+        XCTFail() //I guess xcode cloud doesn't print anything unless we fail?
     }
 
     func testPerformanceExample() throws {
